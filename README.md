@@ -8,6 +8,9 @@ The application has 2 Rest APIs
 
 People API
 Skills API
+
+The application - localhost:8072/bsa-skill-management/login can be logged in using username - user/password
+
 People API lets a user to add/update/ delete people to the repository The API also lets a user to manage the skills recorded for the person - skill Id, skill name, skill level To fetch the details of a people - person Id, person name and the skills recorded for the person
 
 - GET request  to fetch details of all people - localhost:8072/bsa-skill-management/people
