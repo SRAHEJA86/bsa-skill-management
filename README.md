@@ -10,22 +10,22 @@ People API
 Skills API
 People API lets a user to add/update/ delete people to the repository The API also lets a user to manage the skills recorded for the person - skill Id, skill name, skill level To fetch the details of a people - person Id, person name and the skills recorded for the person
 
-- GET request  to fetch details of all people - localhost:8072/people
-- GET request  to fetch details of a specific person - localhost:8072/people/{personId} 
-- People can be added using a POST request to the URL - localhost:8072/people
-- People/person and any field associated with that person (inlcuding skills)can be updated my making a PUT request to the URL-  localhost:8079/people/{personId}
-- People can be deleted by making a DELETE request to the URL - localhost:8072/people/{personId}
+- GET request  to fetch details of all people - localhost:8072/bsa-skill-management/people
+- GET request  to fetch details of a specific person - localhost:8072/bsa-skill-management/people/{personId} 
+- People can be added using a POST request to the URL - localhost:8072/bsa-skill-management/people
+- People/person and any field associated with that person (inlcuding skills)can be updated my making a PUT request to the URL-  localhost:8072/bsa-skill-management/people/{personId}
+- People can be deleted by making a DELETE request to the URL - localhost:8072/bsa-skill-management/people/{personId}
 - GET request  to fetch details of skills recorded for a person - localhost:8072/people/{personId}/skills
-- GET request to fetch a specific skill recorded for a person - localhost:8072/people/{personId}/skills/{skillId}
-- Skills can be recorded for a person using a POST request to the URL - localhost:8072/people/{personId}/skills
+- GET request to fetch a specific skill recorded for a person - localhost:8072/bsa-skill-managementpeople/{personId}/skills/{skillId}
+- Skills can be recorded for a person using a POST request to the URL - localhost:8072/bsa-skill-management/people/{personId}/skills
 Skills API REST API built which lets a user to add / update / delete a skill.
 
 - To fetch the details of skills - skill name, skill Id and skill Level 
--  GET request to fetch all skills  - localhost:8072/skills
-- Skills can be added using a POST request to the URL - localhost:8072/skills
-- Skills can be updated my making a PUT request to the URL- localhost:8072/skills/{skillId}
-- Skills can be deleted by making a DELETE request to the URL - localhost:8072/skills/{skillId}
-- A specific skill details can be fetched using a GET request to URL - localhost:8072/skills/{skillId}
+-  GET request to fetch all skills  - localhost:8072/bsa-skill-management/skills
+- Skills can be added using a POST request to the URL - localhost:8072/bsa-skill-management/skills
+- Skills can be updated my making a PUT request to the URL- localhost:8072/bsa-skill-management/skills/{skillId}
+- Skills can be deleted by making a DELETE request to the URL - localhost:8072/bsa-skill-management/skills/{skillId}
+- A specific skill details can be fetched using a GET request to URL - localhost:8072/bsa-skill-management/skills/{skillId}
 
 To change the port number (in case 8072 is already used on your machine, kindly change it in application.properties file)
 Prerequisites :
