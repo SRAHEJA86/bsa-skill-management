@@ -1,5 +1,5 @@
-# bsa-skill-management
-Tracking app to track skill that people have
+# bsa-tracking-application
+Tracking application is to track skill that people have
 
 
 BSATrackingApplication has been built using JAVA 8,Spring boot (2.5.2),Spring security, microservices,in-built H2 database as the backend.
