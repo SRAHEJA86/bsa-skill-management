@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <title>BSA Skills Management Application</title>
+</head>
+<body>
+ <h1>This is BSA skills management application</h1>
+  <div th:if="${people.size > 0}" th:each="row:${people}">
+      <table>
+          <thead>
+            <th>Person Id</th>
+            <th>Person Name</th>
+            <th>Skills </th>
+          </thead>
+          <tr>
+            <td th:text="${row.id}">Id</td>
+            <td th:text="${row.name}">Name</td>
+            <td th:text="${row.skills}">Skills</td>
+
+          </tr>
+      </table>
+  </div>
+</body>
+</html>

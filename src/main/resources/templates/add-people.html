@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <title>Add people and skills</title>
+</head>
+<body>
+ <form method="post" action="/people">
+    <input type="text" id="name">Enter name</input><br>
+    <input type="text" id="skills">Enter skills</input><br>
+    <select id="skillLevel">
+      <option th:value="'EXPERT'" th:text="Expert"></option>
+      <option th:value="'PRACTITIONER'" th:text="Practitioner"></option>
+      <option th:value="'WORKING'" th:text="Working"></option>
+      <option th:value="'AWARENESS'" th:text="Awareness"></option>
+    </select>
+   <button type="submit">Submit</button>
+ </form>
+
+</body>
+</html>
