@@ -1,5 +1,5 @@
 # bsa-tracking-application
-Tracking application is to track skill that people have
+Tracking application is an application that lets user to track skill that people have in an organisation.
 
 
 BSATrackingApplication has been built using JAVA 8,Spring boot (2.5.2),Spring security, microservices,in-built H2 database as the backend.
